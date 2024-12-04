@@ -20,6 +20,11 @@
     "ecmaVersion": "latest"
   },
   "rules": {
-    "@typescript-eslint/no-non-null-assertion": "off"
+    "react/no-unknown-property": [
+      "error",
+      {
+        "ignore": ["attach", "args"]
+      }
+    ]
   }
 }

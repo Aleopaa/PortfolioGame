@@ -11,6 +11,7 @@ node_modules
 dist
 dist-ssr
 public/draco/*
+dist/draco
 *.local
 
 # Editor directories and files
